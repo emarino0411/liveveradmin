@@ -1,0 +1,115 @@
+body{
+    background-image: url('../assets/images/bg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-cover {
+    width: 90%;
+    position: relative;
+    margin: 20% auto 0;
+    z-index: 1;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#dp {
+    position: absolute;
+    /*left: 30%;*/
+    margin: -25% auto;
+    z-index: 9999;
+    text-align: center;
+    width: 100%;
+
+}
+
+#benefits_icons {
+    position: relative;
+    padding: 13% 5% 5%;
+    z-index:3;
+}
+
+#dp_ingredients {
+    position: absolute;
+    /*left: 30%;*/
+    margin: -30% auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+#ingredients_icons {
+    position:relative;
+    padding: 7% 5% 5%;
+}
+
+.benefits_description{
+    font-size:10px;
+    padding-left:5%;
+    text-align: justify;
+}
+.benefits_label {
+    line-height:24px;
+    font-size:20px !important;
+}
+
+
+.hr-blue {
+    line-height: 0;
+    margin: 5%;
+    border: solid #126A80 1px;
+}
+
+.hr-yellow {
+    line-height: 0;
+    margin: 5%;
+    border: solid #F79E17 1px;
+}
+
+.blue
+{
+    color:#126A80;
+}
+.olive
+{
+    color:#969B64;
+}
+
+.yellow{
+    color:#F79E17;
+}
+
+.padding-0{
+    padding:.5%;
+}
+.padding-none{
+    padding: 0;
+    margin:0;
+}
+
+small{
+    font-size:8px;
+}
+
+#tinding_galing{
+    visibility: hidden;
+}
+
+#tinding_galing , #dp, #dp_ingredients{
+    visibility: hidden;
+}
+
+.box-blue{
+    background-color: rgb(228,243,244) !important;
+    min-height:150px;
+    display: table;
+
+
+}
+.box-olive{
+    background-color:rgb(225,225,225) !important;
+    display:inline-table;
+    min-height:200px;
+}

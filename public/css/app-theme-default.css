@@ -1,0 +1,18 @@
+.widget-user-header  {
+	padding: 20px;
+	height: 300px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	background-attachment: fixed !important;
+}
+.app-btn-loading.loading {
+	pointer-events: none !important;
+    opacity: 0.6 !important;
+}
+.app-btn-loading.loading span.default,
+.app-btn-loading span.loading {
+	display: none;
+}
+.app-btn.loading span.loading {
+	display: inline-block !important;
+}
